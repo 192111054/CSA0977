@@ -1,0 +1,16 @@
+import java.util.*;
+class Triangle
+{
+    public static void main(String args[])
+    {
+        int b,h;
+        double A;
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Enter Breadth:");
+        b=scanner.nextInt();
+        System.out.println("Enter Height:");
+        h=scanner.nextInt();
+        A=(b*h)/2;
+        System.out.println("Area of the triangle="+A);
+    }
+}
